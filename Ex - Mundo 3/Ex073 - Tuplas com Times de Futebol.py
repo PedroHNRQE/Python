@@ -1,0 +1,11 @@
+times = ('Corinthians', 'Palmeiras', 'Santos', 'Gremio', 'Cruzeiro', 'Flamengo', 'Vasco', 'Chapecoense', 'Atletico', 'Botafogo', 'Atletico-PR', 'Bahia', 'São Paulo', 'Fluminense', 'Sport Recife', 'EC Vitoria', 'Coritiba', 'Avai', 'Ponte Preta', 'Atletico-GO')
+print('=-=' * 30)
+print(f'Lista de time do brasileirao: {times}')
+print('=-=' * 30)
+print(f'Os 5 primeiros: {times[0:5]}')
+print('=-=' * 30)
+print(f'Os 4 Ultimos: {times[16:20]}')  # Outra solucao (que no caso é mais eficiente) seria usar {times[-4:]}), pois ele pega o quarto de traz pra frente, ate o final
+print('=-=' * 30)
+print(f'Times em ordem alfabetica: {sorted(times)}')
+print('=-=' * 30)
+print(f'O Chapecoense esta na {times.index('Chapecoense')+1}ª posicao')
